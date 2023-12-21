@@ -1,8 +1,15 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 
+import React from 'react'
 
-<BrowserRouter>
-<Routes>
-    <Route></Route>
-</Routes>
-</BrowserRouter>
+const Router = () => {
+  return (
+    <BrowserRouter>
+    <Routes>
+        <Route></Route>
+    </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default Router

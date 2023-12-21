@@ -1,6 +1,13 @@
+import Router from "./Configuration/Router";
+import "src/App.css";
 import CovidData from "./Covid";
-<CovidData>
 
-</CovidData>
+function App(){
+  return(
+    <>
+    <Router></Router>
+    <CovidData></CovidData>
+    </>
+  )}
 
-export default App
+  export default App
