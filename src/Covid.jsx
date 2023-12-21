@@ -12,13 +12,15 @@ function CovidData(){
     const [newDeath, setNewDeath] = useState("");
     
     useEffect(() => {
-        fetch("https://disease.sh/v3/covid-19/countries")
-            .then((res) => res.json())
-            .then((data) => {
+        fetch("https://disease.sh/docs/#/COVID-19%3A%20Worldometers/get_v3_covid_19_all")
+            .then(res => res.json())
+            .then(data => {
                 setData(data);
+            })
+            .catch(error => {
+                console.error("Error fetching data:", error);
             });
     }, []);
-    }
 
     const setData = ({
         country,
@@ -35,7 +37,7 @@ function CovidData(){
 
 
 
-}
+
 
 const Covid = () => {
   return (
