@@ -31,13 +31,17 @@ function CovidData(){
         current,
         newCases,
         newDeath,
-    })
-
-
-
-
-
-
+    }) => {
+      setCountry(country);
+      setCases(cases);
+      setRecovery(recovery);
+      setDeath(death);
+      setVaccine(vaccine);
+      setCurrent(current);
+      setNewCases(newCases);
+      setNewDeath(newDeath);
+    }
+}
 
 const Covid = () => {
   return (
