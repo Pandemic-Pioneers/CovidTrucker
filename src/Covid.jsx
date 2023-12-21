@@ -41,12 +41,28 @@ function CovidData(){
       setNewCases(newCases);
       setNewDeath(newDeath);
     }
+    //<input type="search"></input>
+    return (
+      <>
+        <div className="CovidData">
+          <h1>Covid 19 Tracker</h1>
+          <div className="CovidDataInput">
+          </div>
+          <div className="CovidDataInfo">
+            <p>Country name:{country}</p>
+            <p>Cases:{cases}</p>
+            <p>Recovered:{recovery}</p>
+            <p>Deaths:{death}</p>
+            <p>Vaccines:{vaccine}</p>
+            <p>Current:{current}</p>
+            <p>New cases:{newCases}</p>
+            <p>New deaths:{newDeath}</p>
+          </div>
+        </div>
+      </>
+    );
+
 }
 
-const Covid = () => {
-  return (
-    <div>Covid</div>
-  )
-}
+export default CovidData
 
-export default Covid
