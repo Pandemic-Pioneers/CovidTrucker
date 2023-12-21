@@ -41,12 +41,12 @@ function CovidData(){
       setNewCases(newCases);
       setNewDeath(newDeath);
     }
-    //<input type="search"></input>
     return (
       <>
         <div className="CovidData">
           <h1>Covid 19 Tracker</h1>
           <div className="CovidDataInput">
+            <input type="search"></input>
           </div>
           <div className="CovidDataInfo">
             <p>Country name:{country}</p>
