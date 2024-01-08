@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import "src\covid.css"
+import "./covid.css"
 
 function CovidData(){
     const [country, setCountry] = useState("");

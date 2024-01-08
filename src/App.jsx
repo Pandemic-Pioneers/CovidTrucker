@@ -1,5 +1,5 @@
 import Router from "./Configuration/Router";
-import "src/App.css";
+import "./App.css";
 import CovidData from "./Covid";
 
 function App(){
