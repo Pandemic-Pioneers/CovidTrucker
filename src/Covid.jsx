@@ -44,7 +44,7 @@ function CovidData(){
     return (
       <>
         <div className="CovidData">
-          <h1>Covid 19 Tracker</h1>
+          <h1 className='trackerName'>Covid 19 Tracker</h1>
           <div className="CovidDataInput">
             <input type="search"></input>
           </div>

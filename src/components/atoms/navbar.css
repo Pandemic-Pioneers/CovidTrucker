@@ -5,4 +5,9 @@
 
 ul li{
     list-style: none;
+    align-items: center;
+}
+
+.icons {
+    width: 30px;
 }

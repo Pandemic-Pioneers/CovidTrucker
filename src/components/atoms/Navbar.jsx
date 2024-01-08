@@ -7,16 +7,17 @@ const Navbar = () => {
 <>
     <div className='navbar'>
         <ul>
-            <li><img src="src/assets/images/coronavirus.png" alt="logo" /></li>
-            <li>Graphic</li>
-            <li>List</li>
-            <li>Icons</li>
-            <li>Folder</li>
-            <li>Collection</li>
-            <li>Stats</li>
-            <li>World</li>
-            <li>Comments</li>
-            <li>Stuff</li>
+            <li className="icons"><img src="src/assets/images/coronavirus.png" alt="logo" /></li>
+            <li className="icons"><img src="src/assets/images/icons/graphic.svg" alt="Graphic" /></li>
+            <li className="icons"><img src="src/assets/images/icons/list.svg" alt="List" /></li>
+            <li className="icons"><img src="src/assets/images/icons/icons.svg" alt="Icons" /></li>
+            <li className="icons"><img src="src/assets/images/icons/collections.svg" alt="Collection" /></li>
+            <li className="icons"><img src="src/assets/images/icons/folder.svg" alt="Folder" /></li>
+            <li className="icons"><img src="src/assets/images/icons/stats.svg" alt="Stats" /></li>
+            <li className="icons"><img src="src/assets/images/icons/world.svg" alt="World" /></li>
+            <li className="icons"><img src="src/assets/images/icons/coment.svg" alt="Comments" /></li>
+            <li className="icons"><img src="src/assets/images/icons/stuff.svg" alt="Stuff" /></li>
+            
         </ul>
     </div>
     </>
