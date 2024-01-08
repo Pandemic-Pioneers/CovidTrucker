@@ -4,11 +4,13 @@ import React from 'react'
 
 const Router = () => {
   return (
+    <>
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<Navbar/>}></Route>
     </Routes>
     </BrowserRouter>
+    </>
   )
 }
 
