@@ -4,6 +4,13 @@
     background-color: #F7F8FC;
     box-sizing: border-box;
 }
+
+.navbar {
+    width: 80px;
+    position:fixed;
+    top: 0;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -22,15 +29,19 @@ li{
 ul .icons:hover {
     width: 40px;
     background-color: rgb(23, 23, 166);
-    border-radius: 5px;
+    border-radius: 5px; 
+    img{
+        filter: brightness(0) invert(1);
+      }
 }
 
 .logo img {
-    width:80px;
+    width:60px;
     left: 0;
     background-color: transparent;
     animation: rotation 5s linear infinite;
 }
+
 
 @keyframes rotation {
     0% {
@@ -41,6 +52,11 @@ ul .icons:hover {
     }
   }
 
+  .logo img:hover {
+    filter: brightness(0) invert(1);
+   
+  }
+  
 .icons img {
     width: 20px;
     vertical-align: middle;
@@ -53,7 +69,4 @@ ul li:last-child{
 }
 ul li:first-child{
     margin-bottom: 20px;
-}
-.navbar {
-    width: 80px;
 }
