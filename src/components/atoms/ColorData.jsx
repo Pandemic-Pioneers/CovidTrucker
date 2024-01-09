@@ -3,7 +3,7 @@ import './colordata.css'
 
 const ColorData = () => {
   return (
-    <div>ColorData</div>
+    <h1>ColorData</h1>
   )
 }
 

@@ -5,7 +5,7 @@ import ColorData from '../atoms/ColorData'
 const Trackercero = () => {
   return(
     <>
-    <h1>Covid 19 tracker</h1>
+    <h1>Covid-19 tracker</h1>
     <ColorData></ColorData>
     </>
   )}
