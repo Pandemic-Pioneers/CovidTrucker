@@ -8,8 +8,10 @@
 .navbar {
     width: 80px;
     position:fixed;
-    top: 0;
+    top: 20px;
     left: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
