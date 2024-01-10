@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react'
 import "./covid.css"
 
 function CovidData(){
-    const [country, setCountry] = useState("");
+    const [countries, setCountry] = useState("");
     const [cases, setCases] = useState("");
-    const [recovery, setRecovery] = useState("");
-    const [death, setDeath] = useState("");
-    const [vaccine, setVaccine] = useState("");
-    const [current, setCurrent] = useState(""); //total active
-    const [newCases, setNewCases] = useState("");
-    const [newDeath, setNewDeath] = useState("");
+    const [recovered, setRecovery] = useState("");
+    const [deaths, setDeath] = useState("");
+    const [tests, setVaccine] = useState("");
+    const [active, setCurrent] = useState(""); //total active
+    const [todayCases, setNewCases] = useState("");
+    const [todayDeaths, setNewDeath] = useState("");
     
     useEffect(() => {
         fetch("https://disease.sh/v3/covid-19/all")
@@ -22,24 +22,26 @@ function CovidData(){
             });
     }, []);
 
+   
+
     const setData = ({
-        country,
+      countries,
         cases,
-        recovery,
-        death,
-        vaccine,
-        current,
-        newCases,
-        newDeath,
+        recovered,
+        deaths,
+        tests,
+        active,
+        todayCases,
+        todayDeaths,
     }) => {
-      setCountry(country);
+      setCountry(countries);
       setCases(cases);
-      setRecovery(recovery);
-      setDeath(death);
-      setVaccine(vaccine);
-      setCurrent(current);
-      setNewCases(newCases);
-      setNewDeath(newDeath);
+      setRecovery(recovered);
+      setDeath(deaths);
+      setVaccine(tests);
+      setCurrent(active);
+      setNewCases(todayCases);
+      setNewDeath(todayDeaths);
     }
     return (
       <>
@@ -49,14 +51,14 @@ function CovidData(){
             <input type="search"></input>
           </div>
           <div className="CovidDataInfo">
-            <p>Country name:{country}</p>
-            <p>Cases:{cases}</p>
-            <p>Recovered:{recovery}</p>
-            <p>Deaths:{death}</p>
-            <p>Vaccines:{vaccine}</p>
-            <p>Current:{current}</p>
-            <p>New cases:{newCases}</p>
-            <p>New deaths:{newDeath}</p>
+            <p>Country name: {countries}</p>
+            <p>Cases: {cases}</p>
+            <p>Recovered: {recovered}</p>
+            <p>Deaths: {deaths}</p>
+            <p>Vaccines: {tests}</p>
+            <p>Current: {active}</p>
+            <p>New cases: {todayCases}</p>
+            <p>New deaths: {todayDeaths}</p>
           </div>
         </div>
       </>
