@@ -6,7 +6,7 @@ function App(){
   return(
     <>
     <Router></Router>
-    <CovidData></CovidData>
+    {/* <CovidData></CovidData> */}
     </>
   )}
 
