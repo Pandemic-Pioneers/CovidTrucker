@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+div.colorData_Background {
+    width: 90%;
+    height: 60px;
+    background-color: #FF000033;
+    opacity: 1;
+    margin: 10px auto; 
+}
+
+ .colorData_Text {
+    text-align: left;
+    padding: 15px;
+    color: #121158;
+ }

@@ -5,8 +5,9 @@ import ColorData from '../atoms/ColorData'
 const Trackercero = () => {
   return(
     <>
-    <h1>Covid-19 tracker</h1>
-    <ColorData></ColorData>
+    <div className='trackercero_background'>
+    <h2 className='trackercero_Title'>COVID-19 Tracker</h2>
+   <ColorData/></div>
     </>
   )}
 

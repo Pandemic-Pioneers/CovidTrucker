@@ -3,7 +3,12 @@ import './colordata.css'
 
 const ColorData = () => {
   return (
-    <h1>ColorData</h1>
+    <>
+    <div className='colorData_Background'>
+      <h4 className='colorData_Text'>Total Case: </h4>
+
+    </div>
+    </>
   )
 }
 

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.trackercero_background {
+    border: 0.5px solid grey;
+    background-color: rgb(204, 218, 218);
+    width: 400px;
+    height: 100vh;
+}
+
+.trackercero_Title {
+    text-align: left;
+    padding: 20px 20px 0 20px;
+    font-weight: 800;
+}
