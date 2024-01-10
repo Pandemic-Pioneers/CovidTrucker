@@ -5,7 +5,7 @@ import './navbar.css'
 const Navbar = () => {
   return (
 <>
-    <div className='navbar'>
+    {/* <div className='navbar'>
         <ul>
             <li className="logo">
               <a href="/">
@@ -40,7 +40,7 @@ const Navbar = () => {
             <li className="icons"><img src="src/assets/images/icons/stuff.svg" alt="Stuff" /></li>
 
         </ul>
-    </div>
+    </div> */}
     </>
   )
 }
