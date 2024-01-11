@@ -9,7 +9,7 @@ function CovidData(){
     const [active, setCurrent] = useState(""); //total active
     const [todayCases, setNewCases] = useState("");
     const [todayDeaths, setNewDeath] = useState("");
-    const [countriesData, setCountriesData] = useState ([]);
+    
     
     useEffect(() => {
         fetch("https://disease.sh/v3/covid-19/all")
@@ -21,15 +21,6 @@ function CovidData(){
                 console.error("Error fetching data:", error);
             });
 
-        fetch('https://disease.sh/v3/covid-19/countries?sort=cases')
-            .then(res => res.json())
-            .then(data => {
-              const top10Countries = data.slice(0, 10);
-              setCountriesData(top10Countries);
-            })
-            .catch(error => {
-              console.error('Error fetching countries data:', error);
-            });
         }, []);
     
 
@@ -69,15 +60,7 @@ function CovidData(){
             <p>New deaths: {todayDeaths}</p>
           </div>
           
-          <div className="CovidDataInfo"></div>
-          <h2 className='topCountries'>Top 10 Countries</h2> 
-          {countriesData.map((country) => (
-            <div key={country.country} className='countryInfo'>
-              <img src={country.countryInfo.flag} alt={country.country} width="50" height="0"/>
-              <p className='countryName'>Country: {country.country}</p>
-              <p className='casesNumber'>Cases: {country.cases}</p>
-            </div>
-          ))}
+          
          
         </div>
       </>
@@ -86,4 +69,3 @@ function CovidData(){
 }
 
 export default CovidData
-

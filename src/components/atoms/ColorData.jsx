@@ -1,5 +1,6 @@
 import React from 'react'
 import './colordata.css'
+import CovidData from '../../Covid'
 
 const ColorData = () => {
   return (
@@ -8,6 +9,7 @@ const ColorData = () => {
       <h4 className='colorData_Text'>Total Case: </h4>
 
     </div>
+    <CovidData />
     </>
   )
 }

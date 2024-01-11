@@ -1,5 +1,5 @@
 import React from 'react';
-import CovidData from "./"
+import Top10Flags from '../../Top10Flags';
 import "../atoms/Top10.css";
 
 const Top10 = () => {
@@ -7,7 +7,7 @@ const Top10 = () => {
     <>
     <div className='Top10'>
         <h2 className='topCountries'>Top 10 Countries</h2>
-    <CovidData />
+    <Top10Flags />
     </div>
     </>
   )
