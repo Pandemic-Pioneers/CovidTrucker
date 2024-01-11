@@ -11,7 +11,7 @@ const ColorData = () => {
     </div>
     <CovidData />
     </>
-  )
+  );
 }
 
 export default ColorData

@@ -15,7 +15,7 @@ const Router = () => {
         {/* <Route path="/" element={<Navbar/>}></Route> */}
         <Route path="/Prueba" element={<Prueba/>}></Route>
         <Route path="/tracker_1" element={<Tracker_1></Tracker_1>}></Route>
-        <Route path="/trackercero" element={<Trackercero />}></Route>
+        {/* <Route path="/trackercero" element={<Trackercero />}></Route> */}
         
 
     </Routes>
