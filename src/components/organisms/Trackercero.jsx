@@ -1,7 +1,8 @@
 import React from 'react'
 import './trackercero.css'
 import ColorData from '../atoms/ColorData'
-import CovidData from '../../Covid'
+import CovidData from 'src/Covid.jsx'
+import Top10 from '../atoms/Top10'
 
 const Trackercero = () => {
   return(
@@ -9,7 +10,8 @@ const Trackercero = () => {
     <div className='trackercero_background'>
     <h2 className='trackercero_Title'>COVID-19 Tracker</h2>
     <CovidData />
-   <ColorData/></div>
+    <ColorData />
+    <Top10 /></div>
     </>
   )}
 

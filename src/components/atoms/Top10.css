@@ -1,0 +1,27 @@
+.Top10 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.topCountries {
+    font-size: 104px;
+
+}
+
+.countryInfo {
+    align-items: center;
+
+}
+
+.countryInfo img {
+    /* esta es la bandera */
+    margin-right: 10px;
+}
+
+.countryName {
+    margin-right: 10px;
+}
+
+.casesNumber {
+    font-weight: bold;
+}

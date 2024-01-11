@@ -73,7 +73,7 @@ function CovidData(){
           <h2 className='topCountries'>Top 10 Countries</h2> 
           {countriesData.map((country) => (
             <div key={country.country} className='countryInfo'>
-              <img src={country.countryInfo.flag} alt={country.country} width="50" height="30"/>
+              <img src={country.countryInfo.flag} alt={country.country} width="50" height="0"/>
               <p className='countryName'>Country: {country.country}</p>
               <p className='casesNumber'>Cases: {country.cases}</p>
             </div>
