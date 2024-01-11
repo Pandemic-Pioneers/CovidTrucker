@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import "./covid.css"
 
 function CovidData(){
-    const [countries, setCountry] = useState("");
     const [cases, setCases] = useState("");
     const [recovered, setRecovery] = useState("");
     const [deaths, setDeath] = useState("");
@@ -25,7 +24,6 @@ function CovidData(){
         fetch('https://disease.sh/v3/covid-19/countries?sort=cases')
             .then(res => res.json())
             .then(data => {
-              setData(data);
               const top10Countries = data.slice(0, 10);
               setCountriesData(top10Countries);
             })
@@ -38,7 +36,6 @@ function CovidData(){
      
 
     const setData = ({
-        countries,
         cases,
         recovered,
         deaths,
@@ -47,7 +44,6 @@ function CovidData(){
         todayCases,
         todayDeaths,
     }) => {
-      setCountry(countries);
       setCases(cases);
       setRecovery(recovered);
       setDeath(deaths);
