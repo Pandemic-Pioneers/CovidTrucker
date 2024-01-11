@@ -6,7 +6,11 @@ const ColorData = () => {
   return (
     <>
     <div className='colorData_Background'>
-      <h4 className='colorData_Text'>Total Case: </h4>
+      <h4 className='colorData_Text'>Total Case</h4>
+      <div className='colorData_NewCases'>
+        <p>+ New</p>
+      </div>
+      <h2 className='colorData_Numbers'> Numbers </h2>
 
     </div>
     <CovidData />
