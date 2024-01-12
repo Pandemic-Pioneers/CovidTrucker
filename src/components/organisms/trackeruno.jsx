@@ -17,6 +17,8 @@ const trackeruno = () => {
             <img src="../assets/images/image_map.PNG" alt="imageMap" />
         </div>
 
+        <div className='SymbolCasesMolecule'></div>
+
         <SymbolCasesMolecule />
         <CovidData />
     </div>

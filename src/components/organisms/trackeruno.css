@@ -7,13 +7,13 @@
 
 .trackeruno_background {
     border: 0.5px solid grey;
-    background-color: rgb(204, 218, 218);
-    width: 400px;
-    height: 100vh;
+    background-color: white;
+    
 }
 
 .trackeruno_Search{
     background-color: antiquewhite;
+    border-color: black;
 }
 
 .trackeruno_Date {
@@ -24,4 +24,8 @@
 .trackeruno_ImageMap {
     padding: 20px 20px 0 20px;
     
+}
+
+.SymbolCasesMolecule {
+
 }

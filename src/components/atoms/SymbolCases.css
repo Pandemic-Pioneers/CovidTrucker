@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: transparent;
     box-sizing: border-box;
 }
 
@@ -9,16 +8,13 @@
 div.symbolCases_background {
     width: 90%;
     height: 60px;
-    background-color: #FF000033;
-    opacity: 1;
-    margin: 10px auto; 
-    display: inline-flex;
+    color: white;
     padding: 10px;
     align-items: center;
     justify-content: space-between;
-    transition: transform .2s;
-    border-radius: 3px;
+    
 } 
+
 
 @keyframes rotation {
     0% {
@@ -38,6 +34,9 @@ div.symbolCases_background {
 
  .symbolCases_Text {
     color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
  }
 
 
