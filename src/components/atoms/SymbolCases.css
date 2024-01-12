@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+
+div.symbolCases_background {
+    width: 90%;
+    height: 60px;
+    background-color: #FF000033;
+    opacity: 1;
+    margin: 10px auto; 
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform .2s;
+    border-radius: 3px;
+} 
+
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg); /* Rotación inicial */
+    }
+    100% {
+      transform: rotate(360deg); /* Rotación completa (una vuelta completa) */
+    }
+  }
+
+  .symbolCases_background img:hover {
+    filter: brightness(0) invert(1);
+
+  }
+
+
+
+ .symbolCases_Text {
+    color: #000000;
+ }
+
+
+ .symbolCases_Numbers {
+    color: #121158;
+
+ }
+

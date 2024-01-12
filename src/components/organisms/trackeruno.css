@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.trackeruno_background {
+    border: 0.5px solid grey;
+    background-color: rgb(204, 218, 218);
+    width: 400px;
+    height: 100vh;
+}
+
+.trackeruno_Search{
+    background-color: antiquewhite;
+}
+
+.trackeruno_Date {
+    color: black;
+}
+
+
+.trackeruno_ImageMap {
+    padding: 20px 20px 0 20px;
+    
+}
