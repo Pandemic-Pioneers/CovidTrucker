@@ -11,7 +11,6 @@ const ColorData = () => {
         <p>+ New</p>
       </div>
       <h2 className='colorData_Numbers'> Numbers </h2>
-
     </div>
    
     </>

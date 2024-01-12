@@ -1,0 +1,76 @@
+.color_circles{
+    display: flex;
+    flex-direction: row;
+}
+
+.first_cirlce {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: mediumslateblue;
+    animation: circleAnimation 1.5s ease-in-out infinite;
+}
+.second_circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: mediumorchid;
+    animation: circleAnimation 1.5s ease-in-out infinite;
+}
+.third_circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: greenyellow;
+    animation: circleAnimation 1.5s ease-in-out infinite;
+}
+.fourth_circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: rgb(20, 170, 203);
+    animation: circleAnimation 1.5s ease-in-out infinite;
+}
+.fifth_circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: orange;
+    animation: circleAnimation 1.5s ease-in-out infinite;
+}
+.sixth_circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: red;
+    animation: circleAnimation 1.5s ease-in-out infinite;
+
+}
+.seventh_circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: mediumorchid;
+    animation: circleAnimation 1.5s ease-in-out infinite;
+}
+.eightth_circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: black;
+    animation: circleAnimation 1.5s ease-in-out infinite;
+}
+@keyframes circleAnimation {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(0);
+        opacity: 0;
+      }
+}

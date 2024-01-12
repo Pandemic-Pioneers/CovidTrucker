@@ -1,0 +1,35 @@
+.countrydata_Background{
+    width: 90%;
+    height: 45px;
+    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+
+}
+.flag_image{
+    width: 50px;
+    height: 25px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+.country_name{
+    font-size: 13px;
+    color: #111111;
+    margin-left: 15px;
+}
+.country_number{
+    font-size: 13px;
+    color: #121158;
+    margin-left: 150px;
+}
+.countrydata_Background:hover {
+    transform: scale(1.08);
+}

@@ -1,0 +1,4 @@
+.country_data_molecule {
+    display: flex;
+    flex-direction: column;
+}
