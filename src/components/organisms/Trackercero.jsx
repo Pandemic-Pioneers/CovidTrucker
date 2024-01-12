@@ -3,6 +3,7 @@ import './trackercero.css'
 import ColorDataMolecule from '../molecules/ColorDataMolecule.jsx'
 import CountryDataMolecule from '../molecules/CountryDataMolecule.jsx'
 import Colorcircle from '../atoms/Colorcircle.jsx'
+//import ColorData from '../atoms/ColorData.jsx'
 
 
 

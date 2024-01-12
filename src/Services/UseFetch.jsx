@@ -17,4 +17,4 @@ const UseFetch = (url) => {
     return {data, loading}
 }
 
-export default UseFetch
+export default UseFetch;
