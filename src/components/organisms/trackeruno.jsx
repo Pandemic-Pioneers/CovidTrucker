@@ -3,7 +3,7 @@ import './trackeruno.css'
 import SymbolCasesMolecule from '../molecules/SymbolCasesaMolecule'
 import CovidData from '../../Covid'
 
-const trackeruno = () => {
+const Trackeruno = () => {
   return (
     <>
     <div className='trackeruno_background'>
@@ -27,4 +27,4 @@ const trackeruno = () => {
   );
 }
 
-export default trackeruno
+export default Trackeruno
