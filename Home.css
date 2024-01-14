@@ -3,19 +3,128 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Poppins';
 }
-
-ul {
+.navbar_container {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    color: #60608f;
+}
+.main_list {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 3rem;
 }
 
-ul li {
+.main_list .main_list_member {
     list-style: none;
     font-family: 'Poppins';
 }
-ul li:first-child {
-    padding-right: 7rem;
+.main_list .main_list_member:first-child {
+    padding-right: 20rem;
+}
+.home_lists{
+    display: none;
+    padding-top: 10px;
+    background-color: white;
+}
+.home_lists li {
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.home_lists li:hover {
+    background-color: #3639ae;
+    color: white;
+}
+nav ul .main_list_member:hover .home_lists {
+    display: block;
+    position: absolute;
+    list-style: none;
+}
+.pages_list {
+    display: none;
+    padding-top: 10px;
+    background-color: white;
+}
+.pages_list li {
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.pages_list li:hover {
+    background-color: #3639ae;
+    color: white;
+}
+nav ul .main_list_member:hover .pages_list {
+    display: block;
+    position: absolute;
+    list-style: none;
+}
+.navbar_container button {
+    background-color: #3639ae;
+    width: 155px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    font-family: 'Poppins';
+}
+.navbar_container button:hover {
+    background-color: #2d2f91;
+}
+main {
+    width: 100%;
+    height: 670px;
+    background-image: linear-gradient(to bottom, #63ceea, #bab7e2);
+}
+.content_container {
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+    padding-bottom:4.5rem;
+   
+}
+.title_container{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.title_container h1 {
+    font-size: 55px;
+    color: #121158;
+    font-weight: bold;
+    ;
+}
+.title_container p {
+    font-size: 14px;
+    color: #515184;
+    padding-bottom: 3rem;
+} 
+.title_container button {
+    border: none;
+    width: 200px;
+    height: 3rem;
+    color: white;
+    background-color: #2d2f91;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.image_container {
+    padding-top: 1rem;
+}
+.logo_container {
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    background-color: white;
+    padding-left: 2rem;
 }
