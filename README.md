@@ -29,19 +29,16 @@ It will be a React-based web application that allows users to visualize in an in
   git clone https://github.com/Pandemic-Pioneers
   ```
 
-### You need to have installed Node.js, if not...
+### You need to have installed Node.js and React, if not...
 - Download the Node.js installer pack from the [official website](https://nodejs.org/en) and choose the version that suits your current operating system (Win, MacOS or Linux)
-- Run the installer and follow the instructions on the screen. Accept the licence terms and choose the installation location. You can also customise the components to be installed, such as npm, the Node.js package manager
+- Run the installer and follow the instructions on the screen. Accept the licence terms and choose the installation location. You can also customize the components to be installed, such as npm, the Node.js package manager
 - Once the installation is complete, verify that Node.js is installed correctly; open the terminal and run the command below, this will show you the node version you've installed
   ```bash
   npm -v
   ```
-- Then in your terminal, run commands below:
+- Then in your terminal, run the commands below:
   ```bash
-  npm install
-  ```
-  ```bash
-  npm init
+  npm install create-react-app --template react
   ```
 - Finally, when you want to render the project, you should run this command on your node terminal
   ```bash
