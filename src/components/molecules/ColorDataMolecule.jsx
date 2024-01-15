@@ -6,5 +6,7 @@ import UseFetch from '../../Services/UseFetch'
 const ColorDataMolecule = () => {
     const urlTotalCases = "https://disease.sh/v3/covid-19/all";
     const {data, loading} = UseFetch(urlTotalCases);
-};
+
+  
+  };
 export default ColorDataMolecule
