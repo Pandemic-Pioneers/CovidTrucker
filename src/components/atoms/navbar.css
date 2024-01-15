@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #F7F8FC;
+    background-color: transparent;
     box-sizing: border-box;
 }
 
@@ -12,6 +12,7 @@
     left: 30px;
     display: flex;
     justify-content: center;
+    background-color: #F7F8FC;
 }
 
 ul {
@@ -48,10 +49,10 @@ ul .icons:hover {
 
 @keyframes rotation {
     0% {
-      transform: rotate(0deg); /* Rotación inicial */
+      transform: rotate(0deg);
     }
     100% {
-      transform: rotate(360deg); /* Rotación completa (una vuelta completa) */
+      transform: rotate(360deg); 
     }
   }
 
