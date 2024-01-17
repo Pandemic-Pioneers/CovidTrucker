@@ -6,3 +6,8 @@
 h1 {
     font-size: 10%;
 }
+
+.CovidDataInfo{
+    text-align: left;
+    padding: 15px;
+}

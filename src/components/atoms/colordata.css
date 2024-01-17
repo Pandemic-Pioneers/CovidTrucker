@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+.color_data_molecule{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+div.colorData_Background {
+    width: 90%;
+    height: 60px;
+    /* background-color: #FF000033; */
+    opacity: 1;
+    margin: 10px auto; 
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform .2s;
+    border-radius: 3px;
+}
+.colorData_Background:hover {
+   /* outline: solid red 2px; */
+   transform: scale(1.08);
+} 
+
+ .colorData_Text {
+    color: #121158;
+ }
+
+ .colorData_NewCases{
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    color: grey;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.colorData_NewCases p{ 
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+
+ .colorData_Numbers {
+    color: rgb(255,0,0);
+
+ }

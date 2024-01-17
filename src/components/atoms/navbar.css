@@ -7,9 +7,10 @@
 
 .navbar {
     width: 80px;
-    position:fixed;
-    top: 20px;
-    left: 30px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     background-color: #F7F8FC;
