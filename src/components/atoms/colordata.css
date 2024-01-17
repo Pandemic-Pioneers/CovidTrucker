@@ -13,7 +13,6 @@
 div.colorData_Background {
     width: 90%;
     height: 60px;
-    /* background-color: #FF000033; */
     opacity: 1;
     margin: 10px auto; 
     display: inline-flex;
@@ -24,7 +23,6 @@ div.colorData_Background {
     border-radius: 3px;
 }
 .colorData_Background:hover {
-   /* outline: solid red 2px; */
    transform: scale(1.08);
 } 
 

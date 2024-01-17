@@ -14,7 +14,7 @@ const Navbar = () => {
             </li>
 
             <li className="icons">
-              <a href="/tracker_1">
+              <a href="/tracker1">
                 <img src="src/assets/images/icons/graphic.svg" alt="Graphic" />
               </a>
             </li>

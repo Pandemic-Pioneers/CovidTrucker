@@ -11,7 +11,10 @@ const ColorData = ({borderHoverColor, bgColor, title, dayNum, numColor, totalVal
 
   return (
     <>
-    <div className='colorData_Background' style={style1} onMouseEnter={(e) => {e.currentTarget.style.border=`2px solid ${borderHoverColor}`}} onMouseLeave={(e) => {e.currentTarget.style.border=`2px solid transparent`}}>
+    <div className='colorData_Background' 
+    style={style1} 
+    onMouseEnter={(e) => {e.currentTarget.style.border=`2px solid ${borderHoverColor}`}} 
+    onMouseLeave={(e) => {e.currentTarget.style.border=`2px solid transparent`}}>
 
       <h4 className='colorData_Text'>{title}</h4>
       <div className='colorData_NewCases'>
