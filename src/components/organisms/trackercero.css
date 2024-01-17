@@ -4,13 +4,20 @@
     background-color: transparent;
     box-sizing: border-box;
 }
+.trackerCero{
+    display: flex;
+    max-width: 480px;
+    top: 0;
+    left: 80px; 
+    position: fixed;
+}
 
 .trackercero_background {
     border: 0.5px solid grey;
     background-color: rgb(204, 218, 218);
     width: 400px;
     height: 100vh;
-    
+    overflow-y: scroll;
 }
 
 .trackercero_Title {

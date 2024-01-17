@@ -1,6 +1,7 @@
 .country_data_molecule {
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
-    margin-bottom: 5px;
     align-items: center;
+    width: 100%;
 }

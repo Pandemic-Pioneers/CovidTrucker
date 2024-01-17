@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import UseFetch from '../../Services/UseFetch'
 import CountryData from '../atoms/CountryData'
+import './countrydatamolecule.css'
 
 
 function CountryDataMolecule () {
@@ -18,12 +19,12 @@ function CountryDataMolecule () {
 }, [data]);
      
   return (
-    <>
+    <div className='country_data_molecule'>
         {countriesData.map(countryInfo => (
           <CountryData key={countryInfo.country} flag={countryInfo.countryInfo.flag} countryName={countryInfo.country} totalValue={countryInfo.cases} />
         ))}
 
- </>
+ </div>
   );
   
   }
