@@ -5,7 +5,7 @@ import CountryData from './components/atoms/CountryData';
 
 function Top10Flags () {
   const urlCountries = "https://disease.sh/v3/covid-19/countries/";
-  const { data, loading } = UseFetch(urlCountries);
+  const { data } = UseFetch(urlCountries);
   const [countriesData, setCountriesData] = useState ([]);
   
     useEffect(() => {

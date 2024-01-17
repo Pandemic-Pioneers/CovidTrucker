@@ -1,6 +1,6 @@
 import React from 'react'
 import './trackercero.css'
-import ColorDataMolecule from '../molecules/ColorDataMolecule.jsx'
+import ColorDataMolecule from '../molecules/ColorDataMolecule'
 import CountryDataMolecule from '../molecules/CountryDataMolecule.jsx'
 import Colorcircle from '../atoms/Colorcircle.jsx'
 import Navbar from '../atoms/Navbar.jsx'
